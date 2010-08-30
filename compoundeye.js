@@ -50,7 +50,7 @@ var Eye = {
     _checkStart: function () {
         if (Eye.connected) {
             Eye.connection.collecta.subscribe(Eye.query, {
-                api_key: "myapikey",
+                api_key: "collectademo",
                 success: Eye.onEvent,
                 error: Eye.onError
             });
