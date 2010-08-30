@@ -1,0 +1,19 @@
+Compound eye is a sample collecta application that searches for all
+photos. It simply displays the images it can and ignores the
+others. Mainly used as a demo for the Collecta XMPP api.
+
+Requires strophejs (http://github.com/metajack/strophejs), and the strophe collecta plugin (http://github.com/collecta/strophejscollecta)
+
+Install:
+Download the Compound Eye
+git clone http://github.com/collecta/compoundeye.git
+cd compoundeye
+Gather requirements. First is Strophejs.
+git clone http://github.com/metajack/strophejs.git
+cd strophejs
+The make requires the YUI compressor. http://developer.yahoo.com/yui/compressor/
+make
+cp strophe.min.js ..
+cd ..
+git clone http://github.com/collecta/strophejscollecta.git
+cp strophejscollecta/strophe.collecta.js .

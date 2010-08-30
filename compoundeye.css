@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #333 url(images/CollectaMagnet.png) no-repeat center center;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    min-width: 990px;
+    overflow: hidden;
+}
+
+#search {
+    color: #c0d4e9;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#search input {
+    font-size: 2em;
+    color: #ccc;
+}
+
+#search .button {
+    margin-right: 0.5em;
+    font-size: 2em;
+    background-color: #666;
+    padding: 0.25em;
+    -webkit-border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+}
+
+#search .button:hover {
+    background-color: #866;
+}
+
+#status {
+    color: #555;
+    margin-top: 2em;
+}
+
+#the-eye {
+    display: none;
+}
+
+#zoomed {
+    text-align: center;
+}
+
+a {
+    color: #c99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
