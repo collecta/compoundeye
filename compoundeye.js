@@ -286,6 +286,9 @@ $(document).ready(function () {
     Eye.setupBoxes();
     
     // event handlers
+
+    $(window).resize(function(){Eye.setupBoxes()});
+
     Eye.$input.focus(function () {
         var $this = $(this);
         if ($this.val() === Eye.PROMPT) {
