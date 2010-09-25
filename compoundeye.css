@@ -21,13 +21,13 @@ body {
 }
 
 #search input {
-    font-size: 2em;
+    font-size: 20pt;
     color: #ccc;
 }
 
 #search .button {
     margin-right: 0.5em;
-    font-size: 2em;
+    font-size: 22pt;
     background-color: #666;
     padding: 0.25em;
     -webkit-border-radius: 0.25em;
